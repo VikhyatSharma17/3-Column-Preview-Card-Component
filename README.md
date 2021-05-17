@@ -36,8 +36,8 @@ Users should be able to:
 [Mobile Preview 2](screenshots/mobile-screenshot-2.png)
 
 ### Links
-- Live Site URL: [Live Site URL]()
-- Solution URL: [Code URL]()
+- Live Site URL: [Live Site URL](https://vikhyatsharma17.github.io/3-Column-Preview-Card-Component/)
+- Solution URL: [Code URL](https://github.com/VikhyatSharma17/3-Column-Preview-Card-Component)
 
 ## My Process
 
