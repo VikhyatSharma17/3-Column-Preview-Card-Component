@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.5rem;
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    font-family: 'Lexend Deca', 'sans-serif';
+}
+
+#category-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20% 0%;
+}
+
+.category {
+    min-height: 30rem;
+    max-width: 30rem;
+    padding: 10%;
+}
+
+.category h2 {
+    font-family: 'Big Shoulders Display', 'sans-serif';
+    font-size: 3rem;
+    color: hsl(0, 0%, 95%);
+    margin: 2rem auto;
+}
+
+.category p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.category button {
+    text-align: center;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 5rem;
+    margin: 20% auto auto auto;
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1rem 1rem 0 0;
+}
+
+#sedan button {
+    color:hsl(31, 77%, 52%);
+}
+
+#sedan button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+#suvs button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 1rem 1rem;
+}
+
+#luxury button {
+    color:hsl(179, 100%, 13%);
+}
+
+#luxury button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+.category button:hover {
+    background-color: transparent;
+    border-color:hsl(0, 0%, 100%);
+    cursor: pointer;   
+}
+
+.attribution {
+    text-align: center;
+}
+
+@media screen and (min-width: 80rem) {
+
+    body {
+        height: 100vh;
+    }
+
+    #category-list {
+        height: 97vh;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .category {
+        height: 50rem;
+        width: 35rem;
+        padding: 5rem ;
+    }
+
+    .category p {
+        height: 15rem;
+    }
+
+    #sedan {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    #luxury {
+        border-radius: 0 1rem 1rem 0;
+    }
+}
+
